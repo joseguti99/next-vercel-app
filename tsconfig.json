@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "./src",
+    "./server",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "Components/layouts/MainLayouts.tsx",
+    "Components/layouts/DarkLayout.tsx",
+    "pages/about/index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
